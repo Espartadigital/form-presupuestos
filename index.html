@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webs</title>
+    <link rel="icon" href="https://espartadigital.com/wp-content/uploads/2018/05/cropped-favicon-32x32-180x180.png"
+        type="image/x-icon" />
+
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div style="display: flex; justify-content: center; margin-bottom: 15px;">
+        <img src="https://espartadigital.com/wp-content/uploads/2018/05/esparta-digital-logo-black.png" alt="">
+    </div>
+    <div id="presupuestador">
+        <form action="api.js" method="post">
+            <div style="display: flex;">
+                <input type="text" id="nombreCliente" name="nombreCliente" placeholder="Nombre cliente">
+                <input type="url" id="webCliente" name="webCliente" placeholder="Web del cliente">
+            </div>
+
+            <div style="display: flex;">
+                <input type="text" id="plazoCliente" name="plazoCliente" placeholder="Plazo y presupuesto">
+            </div>
+
+            <div style="display: flex; align-items: center;">
+                <div style="width: 100%; margin: 5px 10px;">
+                    <label for="tienda">¿Es una tienda o va a necesitarla?</label>
+                    <select name="tienda" id="tienda" form="presupuestador">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div style="width: 100%; margin: 5px 10px;">
+                    <label for="blog">¿Tiene blog?</label>
+                    <select name="blog" id="blog" form="presupuestador">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: end;">
+                <div style="width: 100%; margin: 5px 10px;">
+                    <label for="hosting">¿Necesitan hosting web?</label>
+                    <select name="hosting" id="hosting" form="presupuestador">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div style="width: 100%; margin: 5px 10px;">
+                    <label for="contenidos">¿Necesitan tener los contenidos antiguos?</label>
+                    <select name="contenidos" id="contenidos" form="presupuestador">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <div style="width: 100%; margin: 5px 10px;">
+                    <label for="mantenimiento">¿Van a contratar mantenimiento posteriormente?</label>
+                    <select name="mantenimiento" id="mantenimiento" form="presupuestador">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: end;">
+                <div style="width: 100%; margin: 5px 10px;">
+                    <label for="multiIdioma">¿Es una web multi-idioma?</label>
+                    <select name="multiIdioma" id="multiIdioma" form="presupuestador">
+                        <option value="si">Sí</option>
+                        <option value="no">No</option>
+                    </select>
+                </div>
+                <input type="number" id="numIdiomas" name="numIdiomas" placeholder="Numero de idiomas">
+            </div>
+
+            <div style="display: flex;">
+                <input type="url" id="urlLogin" name="urlLogin" placeholder="URL login">
+                <input type="text" id="usuarioLogin" name="usuarioLogin" placeholder="Usuario">
+                <input type="text" id="contraseniaLogin" name="contraseniaLogin" placeholder="Contraseña">
+            </div>
+
+            <textarea id="comentarioAccount" name="comentarioAccount" placeholder="Comentarios (Objetivos, caracteristicas, etc...)"></textarea>
+
+            <input type="submit" value="Enviar a presupuestar">
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body,
+html {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #cacaca;
+    display: grid;
+    place-content: center;
+    border-radius: 8px;
+    padding: 50px 0;
+} 
+
+#presupuestador {
+    border: 2px solid #ef7601;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+}
+
+form input {
+    border-radius: 20px;
+    height: 30px;
+    padding: 0 25px;
+    outline: none;
+    border: none;
+    width: 100%;
+    margin: 5px 5px;
+}
+
+form select {
+    border-radius: 20px;
+    height: 30px;
+    padding: 0 25px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+
+form textarea {
+    height: 300px;
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    margin: 5px 5px;
+}
+
+form input[type=submit] {
+    background-color: #ef7601;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0;
+    width: 50%;
+    margin-top: 10px;
+    height: 40px;
+}
