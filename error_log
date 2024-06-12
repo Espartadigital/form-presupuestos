@@ -1,9 +1,0 @@
-[03-Jun-2024 16:50:27 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"\n"' (T_CONSTANT_ENCAPSED_STRING) in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 23
-[03-Jun-2024 16:52:37 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"\n"' (T_CONSTANT_ENCAPSED_STRING) in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 27
-[03-Jun-2024 16:52:41 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"\n"' (T_CONSTANT_ENCAPSED_STRING) in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 27
-[03-Jun-2024 16:54:07 Europe/Madrid] PHP Notice:  Undefined index: tienda in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 12
-[03-Jun-2024 16:54:07 Europe/Madrid] PHP Notice:  Undefined index: blog in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 13
-[03-Jun-2024 16:54:07 Europe/Madrid] PHP Notice:  Undefined index: hosting in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 14
-[03-Jun-2024 16:54:07 Europe/Madrid] PHP Notice:  Undefined index: contenidos in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 15
-[03-Jun-2024 16:54:07 Europe/Madrid] PHP Notice:  Undefined index: mantenimiento in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 16
-[03-Jun-2024 16:54:07 Europe/Madrid] PHP Notice:  Undefined index: multiIdioma in /home/localiza/dev.espartadigital.com/presu/presupuesto.php on line 17
