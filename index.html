@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webs</title>
-    <link rel="icon" href="https://espartadigital.com/wp-content/uploads/2018/05/cropped-favicon-32x32-180x180.png"
-        type="image/x-icon" />
-
+    <title>Presupuestador web</title>
+    <link rel="icon" href="https://espartadigital.com/wp-content/uploads/2018/05/cropped-favicon-32x32-180x180.png" type="image/x-icon" />
     <meta name="robots" content="noindex, nofollow">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,8 +16,7 @@
         <img src="https://espartadigital.com/wp-content/uploads/2018/05/esparta-digital-logo-black.png" alt="">
     </div>
     <div id="presupuestador">
-        <form name="contact" netlify>
-
+        <form name="presupuestadorWeb" netlify>
             <div style="display: flex;">
                 <input type="text" name="name" placeholder="Nombre cliente">
                 <input type="url" name="webCliente" placeholder="Web del cliente">
@@ -29,55 +26,19 @@
                 <input type="text" id="plazoCliente" name="plazoCliente" placeholder="Plazo y presupuesto">
             </div>
 
-            <div style="display: flex; align-items: center;">
-                <div style="width: 100%; margin: 5px 10px;">
-                    <label for="tienda">¿Es una tienda o va a necesitarla?</label>
-                    <select name="tienda" id="tienda" form="presupuestador">
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-                <div style="width: 100%; margin: 5px 10px;">
-                    <label for="blog">¿Tiene blog?</label>
-                    <select name="blog" id="blog" form="presupuestador">
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
+            <div style="display: flex;">
+                <input type="text" name="tiendaWeb" placeholder="¿Es una tienda o van a necesitarla?">
+                <input type="text" name="blogWeb" placeholder="¿Tienen blog?">
+            </div>
+
+            <div style="display: flex;">
+                <input type="text" name="hostingWeb" placeholder="¿Necesitan hosting web?">
+                <input type="text" name="contenidosAntiguos" placeholder="¿Van a exportar los contenidos antiguos?">
+                <input type="text" name="mantenimientoWeb" placeholder="¿Contratan mantenimiento posterior?">
             </div>
 
             <div style="display: flex; align-items: end;">
-                <div style="width: 100%; margin: 5px 10px;">
-                    <label for="hosting">¿Necesitan hosting web?</label>
-                    <select name="hosting" id="hosting" form="presupuestador">
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-                <div style="width: 100%; margin: 5px 10px;">
-                    <label for="contenidos">¿Necesitan tener los contenidos antiguos?</label>
-                    <select name="contenidos" id="contenidos" form="presupuestador">
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-                <div style="width: 100%; margin: 5px 10px;">
-                    <label for="mantenimiento">¿Van a contratar mantenimiento posteriormente?</label>
-                    <select name="mantenimiento" id="mantenimiento" form="presupuestador">
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
-            </div>
-
-            <div style="display: flex; align-items: end;">
-                <div style="width: 100%; margin: 5px 10px;">
-                    <label for="multiIdioma">¿Es una web multi-idioma?</label>
-                    <select name="multiIdioma" id="multiIdioma" form="presupuestador">
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-                </div>
+                <input type="text" name="multiIdioma" placeholder="¿Es web multi-idioma?">
                 <input type="number" id="numIdiomas" name="numIdiomas" placeholder="Numero de idiomas">
             </div>
 
