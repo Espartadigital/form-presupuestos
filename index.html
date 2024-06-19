@@ -18,10 +18,11 @@
         <img src="https://espartadigital.com/wp-content/uploads/2018/05/esparta-digital-logo-black.png" alt="">
     </div>
     <div id="presupuestador">
-        <form action="send_mail.php" method="POST">
+        <form name="contact" netlify>
+
             <div style="display: flex;">
-                <input type="text" id="nombreCliente" name="nombreCliente" placeholder="Nombre cliente">
-                <input type="url" id="webCliente" name="webCliente" placeholder="Web del cliente">
+                <input type="text" name="name" placeholder="Nombre cliente">
+                <input type="url" name="webCliente" placeholder="Web del cliente">
             </div>
 
             <div style="display: flex;">
@@ -86,7 +87,7 @@
                 <input type="text" id="contraseniaLogin" name="contraseniaLogin" placeholder="Contraseña">
             </div>
 
-            <textarea id="comentarioAccount" name="comentarioAccount" placeholder="Comentarios (Objetivos, caracteristicas, etc...)"></textarea>
+            <textarea name="message" placeholder="Comentarios (Objetivos, caracteristicas, etc...)"></textarea>
 
             <input type="submit" value="Enviar a presupuestar">
         </form>
